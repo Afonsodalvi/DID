@@ -71,12 +71,12 @@ export default function Home() {
                 width: '100%',
               }}>
               <h1 className="text-white font-bold text-4xl">
-                LumxID Demo
+                DID Identidade Descentralizada
               </h1>
 
               <p className="text-white mt-1">
-              Nesta demonstração interativa você verá como a tecnologia LumxID em conjunto com a ELO pode ser usada para emitir uma
-              Credencial verificável para seus clientes com PolygonID.
+              Nesta demonstração interativa você verá como a tecnologia DID pode ser usada para emitir qualquer
+              Credencial verificável para seus usuários. A tecnologia permite que qualquer entidade somente verifique os dados sem acessar nenhuma informação sensível. No exemplo será de KYC
               </p>
               <br />
               <br />
@@ -90,7 +90,7 @@ export default function Home() {
                 onSubmit={handleGenerateProfileSubmit}
                 className="p-5"
                 style={{ maxWidth: '500px', margin: '0 auto' }}>
-                <h1 className="text-gray-800 font-bold text-2xl mb-6">Seja um Emissor de Credencial com a ELO</h1>
+                <h1 className="text-gray-800 font-bold text-2xl mb-6">Seja um Emissor de Credencial</h1>
                 <div className="flex items-center border-2 mb-8 py-2 px-3 rounded-2xl">
                   <input
                     id="name"
@@ -141,7 +141,7 @@ export default function Home() {
               </h1>
 
               <p className="text-white mt-1">
-                We&apos;ll emitir uma credencial de idade KYC para a qual precisamos de uma data de nascimento.
+                Emitir uma credencial de idade KYC para a qual precisamos de uma data de nascimento.
               </p>
               <br />
               <br />
@@ -208,12 +208,12 @@ export default function Home() {
                 width: '100%',
               }}>
               <h1 className="text-white font-bold text-4xl">
-                Share the claim request link
+                Compartilhe seu link de claim da credencial
               </h1>
 
               <p className="text-white mt-1">
-                Share this link with the recipient. They will be presented with a QR code they can scan to begin the import
-                flow in their Polygon ID wallet.
+              Compartilhe este link com o destinatário/usuário. Eles receberão um código QR que poderão digitalizar para iniciar a importação.
+                Ele deve abrir com uma Polygon ID wallet.
               </p>
               <br />
               <br />

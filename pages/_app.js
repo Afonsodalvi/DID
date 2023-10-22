@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Dock Verifiable Credentials Demo</title>
+        <title>DID Verifiable Credentials Demo</title>
       </Head>
       <Component {...pageProps} />
     </>
